@@ -27,4 +27,29 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (max-width: 1200px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .search-form input {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .search-bar h3 {
+    margin-bottom: 15px;
+  }
+
+  .search-form .search-btn {
+    margin-top: 15px;
+  }
 }
