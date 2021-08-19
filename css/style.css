@@ -202,7 +202,7 @@ nav li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .popular-content article {
@@ -262,4 +262,73 @@ nav li a {
 
 .popular-content article:hover .popular-image-info a {
   background-color: #ff4a52;
+}
+
+/* ---------------- newsletter ---------------- */
+
+.newsletter {
+  background-image: url("../images/newsletter.png");
+  background-position: 65% 65%;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.newsletter::before {
+  position: absolute;
+  content: "";
+  background-color: #040e27;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.newsletter-text {
+  /* margin-top: 25px; */
+  z-index: 1;
+}
+
+.newsletter-text h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.newsletter-text p {
+  color: #aab1b7;
+  font-size: 12px;
+}
+
+.mail-form {
+  z-index: 1;
+}
+
+.mail-form input {
+  width: 40vw;
+  height: 50px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.mail-form-btn {
+  background-color: #ff4a52;
+  color: #fff;
+  border: none;
+  padding: 16px 10px;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -5px;
 }

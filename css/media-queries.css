@@ -52,4 +52,30 @@
   .search-form .search-btn {
     margin-top: 15px;
   }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-text {
+    margin-bottom: 25px;
+  }
+
+  .mail-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-form input {
+    margin-left: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .mail-form-btn {
+    margin-left: 0;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
 }
