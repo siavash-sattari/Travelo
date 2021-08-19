@@ -1,0 +1,30 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+  nav li {
+    display: none;
+  }
+
+  .search-icon {
+    width: 45px;
+  }
+
+  .drop-down-menu {
+    display: flex !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+}

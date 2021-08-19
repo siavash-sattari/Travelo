@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Nothing You Could Do";
+  src: url(../fonts/NothingYouCouldDo.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+  cursor: pointer;
+  color: #000;
+}
+
+a:hover {
+  color: #ff4a52;
+}
+
+/* ---------------- Header ---------------- */
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  position: relative;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block; /* agar "inline" bashe "margin-top" kar nmikone ! :) */
+  margin-right: 35px;
+  margin-top: 13px;
+}
+
+nav li a {
+  font-size: 1.3em;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 45px;
+  background-color: #ff4a52;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon a {
+  color: #fff;
+}
+
+.drop-down-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #1ec6b6;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none !important;
+}
+
+.drop-down-menu a:hover {
+  color: #000;
+}
