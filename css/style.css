@@ -77,3 +77,52 @@ nav li a {
 .drop-down-menu a:hover {
   color: #000;
 }
+
+/* ---------------- Banner ---------------- */
+
+.banner {
+  background: url("../images/banner2.png");
+  height: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 45vw;
+}
+
+.banner-content h3 {
+  font-size: 8vw;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  color: white;
+  line-height: 10vw;
+}
+
+.banner-content p {
+  font-size: 2.5vw;
+  font-weight: 400;
+  color: white;
+}
+
+.banner-btn {
+  background-color: #1ec6b6;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.7vw;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 1vw 1.5vw;
+  transition: 0.3s;
+}
+
+.banner-btn:hover {
+  background-color: #ff4a52;
+  color: white !important;
+}
