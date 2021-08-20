@@ -1,6 +1,14 @@
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-footer {
+    margin-bottom: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

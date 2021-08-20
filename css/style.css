@@ -387,3 +387,48 @@ nav li a {
 .video-button:hover {
   background: #ff4a52;
 }
+
+/* ---------------- Footer ---------------- */
+
+.footer {
+  background-color: #040e27;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-info li {
+  list-style: none;
+  color: #aab1b7;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.right-footer {
+  margin-top: 10px;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.links li {
+  list-style: none;
+  width: 40%;
+  float: left;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.links li a {
+  color: #aab1b7;
+}
+
+.left-footer,
+.right-footer {
+  width: 300px;
+  padding-left: 50px;
+  /* border: 3px solid #fff; */
+}
