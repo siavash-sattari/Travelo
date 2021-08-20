@@ -75,6 +75,15 @@
     height: 70px;
   }
 
+  .single_trip img {
+    width: 260px !important ;
+    height: 200px !important;
+  }
+
+  .single_trip h3 {
+    font-size: 17px;
+  }
+
   .footer {
     flex-direction: column;
     align-items: center;
@@ -140,6 +149,31 @@
   .single_travel h3 {
     margin: 15px 0;
   }
+
+  .recent-trips {
+    padding: 40px 0;
+  }
+
+  .recent-trips-header {
+    margin-bottom: 30px;
+  }
+
+  .recent-trips-header h3 {
+    font-size: 28px;
+  }
+
+  .recent-trips-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single_trip {
+    margin-bottom: 40px;
+  }
+
+  .single_trip:nth-child(3) {
+    margin-bottom: 0;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -200,5 +234,10 @@
     margin-left: 0;
     border-radius: 5px;
     width: 50%;
+  }
+
+  .single_trip img {
+    width: 290px;
+    height: 200px;
   }
 }
