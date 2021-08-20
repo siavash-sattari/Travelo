@@ -30,7 +30,7 @@ header {
   background-color: #fff;
   display: flex;
   justify-content: space-around;
-  padding: 25px 0;
+  padding: 20px 0;
   position: relative;
 }
 
@@ -82,43 +82,36 @@ nav li a {
 
 .banner {
   background: url("../images/banner2.png");
-  height: 50vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-.banner-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 45vw;
+  text-align: center;
+  padding: 80px 0 120px 0;
 }
 
 .banner-content h3 {
-  font-size: 8vw;
+  font-size: 7em;
   font-family: "Nothing You Could Do", cursive;
-  font-weight: 400;
+  font-weight: 600;
   color: white;
-  line-height: 10vw;
 }
 
 .banner-content p {
-  font-size: 2.5vw;
+  font-size: 2.2em;
   font-weight: 400;
   color: white;
+  margin: 100px 0 120px 0;
 }
 
 .banner-btn {
   background-color: #1ec6b6;
   color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 1.7vw;
+  font-size: 1.3em;
   border: 0;
   outline: 0;
   border-radius: 5px;
-  padding: 1vw 1.5vw;
+  padding: 0.7em 0.7em;
   transition: 0.3s;
 }
 
@@ -149,10 +142,14 @@ nav li a {
   border: 1px solid #363e52;
   border-radius: 5px;
   margin: 10px 15px;
-  padding: 17px 20px;
+  padding: 17px 13px;
   width: 220px;
   color: white;
   outline: 0;
+}
+
+.search-form input:focus {
+  border: 1px solid #fff;
 }
 
 .search-form .search-btn {
@@ -216,7 +213,6 @@ nav li a {
 
 .popular-content article img {
   margin-bottom: 20px;
-  height: 280px;
 }
 
 .popular-content article:before {
@@ -301,7 +297,7 @@ nav li a {
 
 .newsletter-text p {
   color: #aab1b7;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .mail-form {
@@ -309,7 +305,7 @@ nav li a {
 }
 
 .mail-form input {
-  width: 40vw;
+  width: 30em;
   height: 50px;
   padding-left: 15px;
   border: none;
@@ -336,8 +332,8 @@ nav li a {
   background-image: url("../images/video.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% 100%;
-  padding: 130px 0;
+  background-size: cover;
+  padding: 80px 0 150px 0;
   margin: 15px 0;
   position: relative;
   display: flex;
@@ -361,9 +357,9 @@ nav li a {
 .video h3 {
   font-family: "Nothing You Could Do", cursive;
   font-weight: 400;
-  font-size: 7vw;
+  font-size: 7em;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   z-index: 1;
 }
 

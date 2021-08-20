@@ -1,6 +1,80 @@
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 576px) {
+  header {
+    padding: 3px 0 !important;
+  }
+
+  .banner-content h3 {
+    font-size: 3.5em !important;
+  }
+
+  .banner-content p {
+    font-size: 1.5em !important;
+    margin: 70px 0 90px 0;
+  }
+
+  .banner-btn {
+    font-size: 1em;
+  }
+
+  .search-form input,
+  .search-form .search-btn {
+    width: 100% !important;
+  }
+
+  .popular-heading h3 {
+    font-size: 26px;
+  }
+
+  .popular-heading p {
+    text-align: justify;
+    width: 70%;
+  }
+
+  .popular-content article img {
+    width: 260px;
+    height: 210px;
+  }
+
+  .newsletter-text h4 {
+    font-size: 20px;
+  }
+
+  .newsletter-text p {
+    margin: 0 20px;
+    font-size: 14px;
+  }
+
+  .mail-form {
+    width: 70% !important;
+  }
+
+  .mail-form input {
+    width: 100% !important;
+    height: 37px;
+    font-size: 15px;
+  }
+
+  .mail-form-btn {
+    padding: 11px 10px;
+    width: 100% !important;
+  }
+
+  .video {
+    padding: 70px 0;
+  }
+
+  .video h3 {
+    font-size: 3em !important;
+    margin-bottom: 30px;
+  }
+
+  .video-button {
+    width: 70px;
+    height: 70px;
+  }
+
   .footer {
     flex-direction: column;
     align-items: center;
@@ -14,11 +88,31 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (max-width: 768px) {
+  .banner-content h3 {
+    font-size: 6em;
+  }
+
+  .banner-content p {
+    font-size: 1.7em;
+  }
+
+  .video h3 {
+    font-size: 6em;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 
 @media (max-width: 992px) {
+  header {
+    justify-content: space-between;
+  }
+
+  header img {
+    margin-left: 20px;
+  }
+
   nav li {
     display: none;
   }
@@ -44,21 +138,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 80%;
   }
 
   .search-form input {
-    width: 100%;
+    width: 65%;
     margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .search-bar h3 {
     margin-bottom: 15px;
   }
 
   .search-form .search-btn {
+    margin-left: 0;
     margin-top: 15px;
+    width: 65%;
+  }
+
+  .search-bar h3 {
+    margin-bottom: 15px;
   }
 
   .newsletter {
@@ -73,17 +169,20 @@
   .mail-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 90%;
   }
 
   .mail-form input {
     margin-left: 0;
     margin-bottom: 15px;
     border-radius: 5px;
+    width: 50%;
   }
 
   .mail-form-btn {
     margin-left: 0;
     border-radius: 5px;
-    flex-grow: 1;
+    width: 50%;
   }
 }
