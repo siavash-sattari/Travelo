@@ -202,7 +202,6 @@ nav li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .popular-content article {
@@ -272,7 +271,6 @@ nav li a {
   background-size: cover;
   height: 250px;
   position: relative;
-  margin-bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,7 +289,6 @@ nav li a {
 }
 
 .newsletter-text {
-  /* margin-top: 25px; */
   z-index: 1;
 }
 
@@ -331,4 +328,62 @@ nav li a {
   font-size: 16px;
   cursor: pointer;
   margin-left: -5px;
+}
+
+/* ---------------- video ---------------- */
+
+.video {
+  background-image: url("../images/video.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  padding: 130px 0;
+  margin: 15px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100 !important;
+}
+
+.video::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #040e27;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.video h3 {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: 7vw;
+  color: #fff;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.video-button {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #1ec6b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.video-button a {
+  color: #fff;
+}
+
+.video-button:hover {
+  background: #ff4a52;
 }
