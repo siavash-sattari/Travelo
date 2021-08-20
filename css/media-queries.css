@@ -99,7 +99,6 @@
   .video h3 {
     font-size: 6em;
   }
-
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -123,6 +122,23 @@
 
   .drop-down-menu {
     display: flex !important;
+  }
+
+  .travel-variation-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single_travel {
+    margin-top: 50px;
+  }
+
+  .single_travel:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .single_travel h3 {
+    margin: 15px 0;
   }
 }
 

@@ -384,6 +384,30 @@ nav li a {
   background: #ff4a52;
 }
 
+/* ---------------- Travel Variation Area ---------------- */
+
+.travel-variation-area {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.single_travel h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #040e27;
+  margin: 30px 0 10px 0;
+}
+
+.single_travel p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6e6e;
+  line-height: 28px;
+  width: 60%;
+  margin: 0 auto;
+}  
+
 /* ---------------- Footer ---------------- */
 
 .footer {
